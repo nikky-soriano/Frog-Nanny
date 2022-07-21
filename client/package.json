@@ -1,0 +1,68 @@
+{
+  "name": "frog-nanny",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8000",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.5",
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aphrodite": "^2.4.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "connected-react-router": "^6.9.1",
+    "d3": "^7.3.0",
+    "date-streaks": "^1.2.1",
+    "framer-motion": "4.1.17",
+    "history": "4.10.1",
+    "moment": "^2.29.1",
+    "node-sass": "^6.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-animations": "^1.0.0",
+    "react-calendar-heatmap": "^1.8.1",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-tooltip": "^4.2.21",
+    "reactjs-lottie": "^1.0.10",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "use-sound": "^4.0.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "seed": "node ../server/config/seed.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
+  }
+}
