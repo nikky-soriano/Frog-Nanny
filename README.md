@@ -1,34 +1,34 @@
-## Description of Project
-Thi is a water-drinking progression game called Frog Nanny. The user inputs how much water they drink in a form on the website. Based off how much water the user drinks, they will be able to get new frogs by completing challenges. The main purpose of the app is to get the user to stay hydrated while also testing their knowledge in order to progress and get new frogs. They will be able to see their friend's frogs which allows them to socialize.
+## Frog Nanny
 
-## How to Run
-1. Have node v16+ installed. See [here](https://nodejs.org/en/download/current/) for installation.
-2. Make sure you have `yarn` installed. It's more convenient than `npm`. Install `yarn` with `npm install --global yarn`.
-3. `cd client`.
-4. Install required client dependencies using `yarn`
-5. `cd server`
-6. Install required server dependencies using `yarn`
-7. Add seed data to server `yarn seed`
-8. Run the client with `yarn start` when you're in the client directory.
-9. Run the server with `yarn start` when you're in the server directory.
-10. Script to do this for you to come later...(maybe?)
+Frog Nanny is a water-drinking progression game. The user inputs how much water they drink. Based off how much water the user drinks, they will be able to get new frogs by completing challenges. The main purpose of the app is to get the user to stay hydrated while also testing their knowledge in order to progress and get new frogs. They will be able to see their friend's frogs which allows them to socialize.
 
-## Dependency Installation via scripts
-1. cd scripts
-2. bash install.sh
+## Keep your frogs healthy!
 
-## Start Script
-1. cd scripts
-2. bash start.sh
-3. Wait for client to start (should see unused variable errors)
-4. Ctrl + C
-5. Wait for server to start
+<p align="center" >
+  <img src= "gifs/healthyfrogs.gif" position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;>
+</p>
 
-## Running Test Script
-1. cd server
-2. cd test
-3. npm test
+## Collect Them All!
 
-## Running Server Seed
-1. cd server
-2. yarn seed
+<p align="center" >
+  <img src= "gifs/collection.gif" position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;>
+</p>
+
+## Dynamic Water Container
+
+<p align="center" >
+  <img src= "gifs/watercontainer.gif" position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;>
+</p>
+
+## Getting started
+
+Refer to the gettingstarted.txt file which documents all necessary steps to get this app running on your local computer.
